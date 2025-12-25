@@ -136,3 +136,31 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Language switch (top-right) */
+.lang-switch{
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  z-index: 9999;
+  font-size: 16px;
+}
+
+.lang-switch a{
+  text-decoration: none;
+  color: #6b21a8; /* 紫色，接近你截图里的感觉；不喜欢可改 */
+  font-weight: 600;
+}
+
+.lang-switch a:hover{
+  text-decoration: underline;
+}
+
+.lang-switch .sep{
+  margin: 0 8px;
+  color: #6b21a8;
+}
+
+.lang-switch a.active{
+  text-decoration: underline;
+}
